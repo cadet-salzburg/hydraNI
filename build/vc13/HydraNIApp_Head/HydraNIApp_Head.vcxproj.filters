@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\HydraNIApp_Head.cpp" />
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\FrameProcessor.cpp">
+      <Filter>FrameProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\CameraTransform.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\ExtrinsicsCalibration.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\IntrinsicsCalibration.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\NUICamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\NUICameraContext.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Head\Trackball.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\FrameProcessor.h">
+      <Filter>FrameProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\CameraTransform.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\ExtrinsicsCalibration.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\IntrinsicsCalibration.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\NUICamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\NUICameraContext.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\MouseListener.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\Line.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\Plane.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Head\Trackball.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FrameProcessing">
+      <UniqueIdentifier>{1ba43dc7-816e-4e80-b6a1-f98d6bbc13f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{1b36d9c7-1fc1-4661-b1f0-73aac0362a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{7c1965fe-6086-40a4-8630-ac4ae4700e09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

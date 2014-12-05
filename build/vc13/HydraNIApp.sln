@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HydraNIApp_Head", "HydraNIApp_Head\HydraNIApp_Head.vcxproj", "{ACB23175-2DA3-4831-BCE9-D7905632A731}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A9221BA-23EC-4867-9975-3F9F9F27F8A3} = {4A9221BA-23EC-4867-9975-3F9F9F27F8A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HydraNIApp_Body", "HydraNIApp_Body\HydraNIApp_Body.vcxproj", "{591E08E7-06E7-4678-AD62-951A57741271}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A9221BA-23EC-4867-9975-3F9F9F27F8A3} = {4A9221BA-23EC-4867-9975-3F9F9F27F8A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HydraNILib_Common", "HydraNILib_Common\HydraNIApp_Common.vcxproj", "{4A9221BA-23EC-4867-9975-3F9F9F27F8A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB23175-2DA3-4831-BCE9-D7905632A731}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACB23175-2DA3-4831-BCE9-D7905632A731}.Debug|Win32.Build.0 = Debug|Win32
+		{ACB23175-2DA3-4831-BCE9-D7905632A731}.Release|Win32.ActiveCfg = Release|Win32
+		{ACB23175-2DA3-4831-BCE9-D7905632A731}.Release|Win32.Build.0 = Release|Win32
+		{591E08E7-06E7-4678-AD62-951A57741271}.Debug|Win32.ActiveCfg = Debug|Win32
+		{591E08E7-06E7-4678-AD62-951A57741271}.Debug|Win32.Build.0 = Debug|Win32
+		{591E08E7-06E7-4678-AD62-951A57741271}.Release|Win32.ActiveCfg = Release|Win32
+		{591E08E7-06E7-4678-AD62-951A57741271}.Release|Win32.Build.0 = Release|Win32
+		{4A9221BA-23EC-4867-9975-3F9F9F27F8A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A9221BA-23EC-4867-9975-3F9F9F27F8A3}.Debug|Win32.Build.0 = Debug|Win32
+		{4A9221BA-23EC-4867-9975-3F9F9F27F8A3}.Release|Win32.ActiveCfg = Release|Win32
+		{4A9221BA-23EC-4867-9975-3F9F9F27F8A3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

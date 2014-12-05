@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Body\HydraNIApp_Body.cpp" />
+    <ClCompile Include="..\..\..\src\HydraNIApp_Body\ProjectorImageMerger.cpp">
+      <Filter>FrameProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HydraNIApp_Body\BlobTracker.cpp">
+      <Filter>FrameProcessing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FrameProcessing">
+      <UniqueIdentifier>{1af63563-1784-4360-bf93-39cdf578f4b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Body\ProjectorImageMerger.h">
+      <Filter>FrameProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Body\BlobTracker.h">
+      <Filter>FrameProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HydraNIApp_Body\Contours.h">
+      <Filter>FrameProcessing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
